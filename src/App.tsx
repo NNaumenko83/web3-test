@@ -1,8 +1,9 @@
 
 
-import Web3, { type Numbers } from 'web3';
+import Web3 from 'web3';
 import './App.css'
 import { useEffect, useState } from 'react';
+
 
 const INFURA_API_KEY = import.meta.env.VITE_APP_INFURA_API_KEY
 const PROJECT_ID = import.meta.env.VITE_APP_PROJECT_ID
